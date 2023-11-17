@@ -1,5 +1,5 @@
 import { Client, Events, GatewayIntentBits } from "discord.js";
-const token = "MTE2MTY3MjM3Mzk5NzY3ODY2NA.GgfDOa.tffD0WtuHf0PeIyXnF889un4VLdkC018sro9s8"
+import token from "./config.json"
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
@@ -8,4 +8,4 @@ client.once(Events.ClientReady, c => {
 });
 
 
-client.login(token);
+client.login(token.token);
