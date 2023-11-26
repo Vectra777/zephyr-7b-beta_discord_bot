@@ -15,6 +15,9 @@ npm -i
 pip install transformers pytorch
 ~~~
 
+## configuration
+don't forget to add your token  and clientId in a config.json at the base of the project
+
 ## Run
 
 Run the python and index program
